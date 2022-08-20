@@ -1,0 +1,85 @@
+@media screen and (max-width:990px){
+    nav{
+        padding: 5%;
+    }
+    .brand{
+        margin-right: 30px;
+    }
+    .container p{
+        margin-left: 325px;
+    }
+    .left{
+        display: block;
+    }
+    .side img{
+        width: 100%;
+        margin:100px  300px;
+    }
+    .mainal{
+        background-color:rgb(240, 239, 235) ;
+        display: block;
+        width: 100%;
+    }
+    .right p{
+        margin-top: 550px;
+    }
+    .mainal h1{
+        text-align: center;
+    }
+    .mainal p{
+        margin-left: 330px;
+        text-align: center;
+    }
+    .joj{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .right h1{
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width:660px){
+    .collection{
+        display: none;
+    }
+    .icons #hoj{
+        display: inline;
+    }
+    .banner{
+        width: 100%;
+    }
+    .basic {
+        width: 100%;
+    }
+    .main{
+        display: block;
+    }
+    .banner h1{
+    padding:  100px 0px 0px  100px;
+    }
+    .banner p{
+    padding: 10px 0 0 100px;
+    }
+    .banner button{
+        margin-left: 100px;
+    }
+    .container p{
+        margin-left: 150px;
+    }
+    .card{
+        margin-left: 150px;
+    }
+    .side img{
+        margin-left: 220px;
+    }
+    .mainal p{
+        margin-left: 170px;
+    }
+    .joj{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 100px;
+    }
+    .right h1{
+        margin-left: 50px;
+        font-size: 25px;
+    }
+}
